@@ -1,0 +1,83 @@
+.ads-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-top: 1px solid #E5E5E5;
+
+    li a {
+        font-size: 12px;
+        line-height: 16px;
+        color: #555555;
+
+        &:hover {
+            color: #111;
+        }
+    }
+}
+
+.brand-outlet {
+    background-color: #FEB786;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 0 15px 32px;
+
+    .brand-outlet__info {
+        max-width: 292px;
+        width: 100%;
+        color: #5C1B05;
+
+        h3 {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 47px;
+            display: flex;
+            margin-bottom: 8px;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 22px;
+            margin-bottom: 25px;
+        }
+
+        button {
+            display: flex;
+            align-items: center;
+            color: #5C1B05;
+            gap: 9px;
+            padding: 10px 18px 12px 21px;
+            background-color: transparent;
+            border: 1px solid #5C1B05;
+
+            &:hover {
+                background-color: #5C1B05;
+                color: #FEB786;
+            }
+
+        }
+    }
+
+    .brand-outlet__category {
+        display: flex;
+        flex-wrap: wrap;
+
+        img {
+            max-width: 300px;
+            width: 100%;
+        }
+    }
+}
+
+.save-it-ad {
+    padding: 53px 0;
+    text-align: center;
+
+    img {
+        max-width: 728px;
+        width: 100%;
+    }
+}
